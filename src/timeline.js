@@ -21,8 +21,8 @@ function Timeline() {
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h2>Internship at Juniper <span>2019-present</span></h2>
-                                                <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
+                                                <h2>Full Stack Web development course at GUVI <span>2021-present</span></h2>
+                                                <p>I recently have joined the GUVI as a Full stack web development-student. My major part of the work has been into the field of creating sustainable and flexible Full Stack Websites using Reactjs as frontend and mongodb as backend and express as server.and some basic knowledge of AWS and also some Basics of DS and Algorithms.</p>
                                             </div>
                                         </div>
                                     </article>
@@ -43,8 +43,8 @@ function Timeline() {
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                                                <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p>
+                                                <h2>Higher Education <span>2013-2015</span></h2>
+                                                <p>I have completed my higher secondary education with major subjects as Physics,Chemistry,Maths & Computer Science with 78%. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p>
                                             </div>
                                         </div>
                                     </article>
