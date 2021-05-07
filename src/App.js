@@ -10,14 +10,20 @@ import {
 } from "react-router-dom";
 import Nav from './nav';
 import About from './about';
+import Introduction from './intro';
 
 function App() {
   return (
     <>
-     <Router>
-        <Nav></Nav>
-        <div id="colorlib-main">
-       <About></About>
+      <Router>
+        <div id="colorlib-page">
+          <div id="container-wrap">
+            <Nav></Nav>
+            <div id="colorlib-main">
+            <Introduction></Introduction>
+              <About></About>
+            </div>
+          </div>
         </div>
       </Router>
     </>

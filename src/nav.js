@@ -1,18 +1,16 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
 
-
 function Nav() {
 
-    
-    return (
-        <>
-             <div>
+  return (
+    <>
+      <div>
         <div>
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/IMG_1188.JPG)'}} />
+              <div className="author-img" style={{ backgroundImage: 'url(images/IMG_1188.JPG)' }} />
               <h1 id="colorlib-logo"><a href="index.html">Tejas HR</a></h1>
               <span className="email"><i className="icon-mail"></i>tejasteju11@gmail.com</span>
             </div>
@@ -29,14 +27,11 @@ function Nav() {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-             
                 <li><a href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/Tejashr" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-               
               </ul>
             </nav>
             <div className="colorlib-footer">
-              
               <p><small>
                 Something coming soon !!
               </small></p>
@@ -44,8 +39,8 @@ function Nav() {
           </aside>
         </div>
       </div>
-        </>
-    )
+    </>
+  )
 }
 
 export default Nav;
