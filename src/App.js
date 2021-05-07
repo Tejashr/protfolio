@@ -11,6 +11,7 @@ import {
 import Nav from './nav';
 import About from './about';
 import Introduction from './intro';
+import Timeline from './timeline';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
           <div id="container-wrap">
             <Nav></Nav>
             <div id="colorlib-main">
-            <Introduction></Introduction>
+              <Introduction></Introduction>
               <About></About>
+              <Timeline></Timeline>
             </div>
           </div>
         </div>
