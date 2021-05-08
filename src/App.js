@@ -12,6 +12,7 @@ import Nav from './nav';
 import About from './about';
 import Introduction from './intro';
 import Timeline from './timeline';
+import Projects from './projects';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <div id="colorlib-main">
               <Introduction></Introduction>
               <About></About>
+              <Projects></Projects>
               <Timeline></Timeline>
             </div>
           </div>
