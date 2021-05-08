@@ -16,7 +16,7 @@ function Introduction(){
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1 className="text-light">Hi! <br />I'm Tejas</h1>
-                          <p><a className="btn btn-primary text-light btn-learn" href="https://docs.google.com/document/d/1kZCAB2rcVkBtee4KLPjNVMFyMOni0q3r7UpDnNEtais/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary text-light btn-learn1" href="https://docs.google.com/document/d/1kZCAB2rcVkBtee4KLPjNVMFyMOni0q3r7UpDnNEtais/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -46,7 +46,7 @@ function Introduction(){
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1 className="text-light">Connect <br/>me at ... </h1>
-                          <p><a className="btn btn-primary btn-learn text-light" href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer">LinkdIn <i className="icon-linkedin2" /></a></p>
+                          <p><a className="btn btn-primary btn-learn1 text-light" href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer">LinkdIn <i className="icon-linkedin2" /></a></p>
                         </div>
                       </div>
                     </div>

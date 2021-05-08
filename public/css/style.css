@@ -340,6 +340,13 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
+              #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn1 {
+                color: white;
+                border: 1px solid white;
+                background: transparent !important; }
+                #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn1:hover {
+                  background: transparent !important;
+                  border: 1px solid white !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
