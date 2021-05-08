@@ -14,12 +14,13 @@ function Projects() {
                         </div>
                         <div className="row">
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-1.jpg)' }}>
+                                <div className="project" style={{ backgroundImage: 'url(images/bookmyshow.jpg)' }}>
                                     <div className="desc">
                                         <div className="con">
-                                            <h3><a href="work.html">Work 01</a></h3>
-                                            <span>Website</span>
+                                            <h3><a href="https://bookmyshowtejas.netlify.app/" target="_blank">BookMyShow Clone</a></h3>
+                                            <span>A Full Stack Website for booking a movie ticket</span>
                                             <p className="icon">
+                                            <span><a className="bg-secondary text-light">Tech used</a></span>
                                                 <span><a>ReactJs</a></span>
                                                 <span><a>MongoDB</a></span>
                                                 <span><a>NodeJs</a></span>
@@ -29,15 +30,16 @@ function Projects() {
                                 </div>
                             </div>
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-2.jpg)' }}>
+                                <div className="project" style={{ backgroundImage: 'url(images/url.jpg)' }}>
                                     <div className="desc">
                                         <div className="con">
-                                            <h3><a href="work.html">Work 02</a></h3>
-                                            <span>Animation</span>
+                                            <h3><a href="https://urlfront.herokuapp.com/" target="_blank">URL Shortner</a></h3>
+                                            <span>A Full Stack Website for Shortning the given long URL</span>
                                             <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                            <span><a className="bg-secondary text-light">Tech used</a></span>
+                                                <span><a>ReactJs</a></span>
+                                                <span><a>MongoDB</a></span>
+                                                <span><a>NodeJs</a></span>
                                             </p>
                                         </div>
                                     </div>
