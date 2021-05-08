@@ -18,7 +18,7 @@ function Projects() {
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a href="https://bookmyshowtejas.netlify.app/" target="_blank">BookMyShow Clone</a></h3>
-                                            <span>A Full Stack Website for booking a movie ticket</span>
+                                            <span>A Full Stack Website for booking a movie ticket.<br/>Here the user will book a movie ticket after logging into his account and he can view his tickets.</span>
                                             <p className="icon">
                                             <span><a className="bg-secondary text-light">Tech used</a></span>
                                                 <span><a>ReactJs</a></span>
@@ -34,7 +34,7 @@ function Projects() {
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a href="https://urlfront.herokuapp.com/" target="_blank">URL Shortner</a></h3>
-                                            <span>A Full Stack Website for Shortning the given long URL</span>
+                                            <span>A Full Stack Website for Shortning the given long URL.<br/>Here user will enter the long url after logging in and user will get his short url.</span>
                                             <p className="icon">
                                             <span><a className="bg-secondary text-light">Tech used</a></span>
                                                 <span><a>ReactJs</a></span>

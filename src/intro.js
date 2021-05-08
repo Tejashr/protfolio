@@ -8,22 +8,22 @@ function Introduction(){
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li>
+              <li style={{backgroundImage: 'url(images/key.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>Hi! <br />I'm Tejas</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/1kZCAB2rcVkBtee4KLPjNVMFyMOni0q3r7UpDnNEtais/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
+                          <h1 className="text-light">Hi! <br />I'm Tejas</h1>
+                          <p><a className="btn btn-primary text-light btn-learn" href="https://docs.google.com/document/d/1kZCAB2rcVkBtee4KLPjNVMFyMOni0q3r7UpDnNEtais/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li >
+              <li style={{backgroundImage: 'url(images/bg2.jpg'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -38,15 +38,15 @@ function Introduction(){
                   </div>
                 </div>
               </li>
-              <li >
+              <li style={{backgroundImage: 'url(images/bg3.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Connect <br/>me at ... </h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer">LinkdIn <i className="icon-linkedin2" /></a></p>
+                          <h1 className="text-light">Connect <br/>me at ... </h1>
+                          <p><a className="btn btn-primary btn-learn text-light" href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer">LinkdIn <i className="icon-linkedin2" /></a></p>
                         </div>
                       </div>
                     </div>
