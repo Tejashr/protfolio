@@ -17,10 +17,10 @@ function Nav() {
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
+                  <li className="active"><a href="#intro" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                  <li><a href="#timeline" data-nav-section="timeline">Education</a></li>
                 </ul>
               </div>
             </nav>
@@ -32,7 +32,7 @@ function Nav() {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                Something coming soon !!
+                Dream Without Fear !!
               </small></p>
             </div>
           </aside>

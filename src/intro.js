@@ -45,7 +45,7 @@ function Introduction(){
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1 className="text-light">Connect <br/>me at ... </h1>
+                          <h1 className="text-light">Connect to <br/>me at ... </h1>
                           <p><a className="btn btn-primary btn-learn1 text-light" href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer">LinkdIn <i className="icon-linkedin2" /></a></p>
                         </div>
                       </div>
