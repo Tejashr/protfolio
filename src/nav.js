@@ -28,6 +28,7 @@ function Nav() {
               <ul>
                 <li><a href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/Tejashr" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                <li><a href="https://drive.google.com/file/d/130-HLeUVZG3qRqgyxKAC-c6l9LmlHnE3/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
