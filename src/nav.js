@@ -26,7 +26,7 @@ function Nav() {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-              <li><a href="https://drive.google.com/file/d/130-HLeUVZG3qRqgyxKAC-c6l9LmlHnE3/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></li>
+              <li><a href="https://drive.google.com/file/d/1Vd_Y46ioU9GABc5GgkRjeop-2_7q20Jk/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></li>
                 <li><a href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/Tejashr" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>

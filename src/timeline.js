@@ -48,6 +48,7 @@ function Timeline() {
                                             </div>
                                         </div>
                                     </article>
+                                    
                                     <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
                                         <div className="timeline-entry-inner">
                                             <div className="timeline-icon color-none">
@@ -65,3 +66,14 @@ function Timeline() {
 }
 
 export default Timeline;
+
+
+// {/* <img src="https://cdn.worldvectorlogo.com/logos/javascript.svg" className="technologies"></img>
+// {/* <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" className="technologies"></img> */}
+// <img src="https://cdn.worldvectorlogo.com/logos/html5.svg" className="technologies"></img>
+// <img src="https://cdn.worldvectorlogo.com/logos/css3.svg" className="technologies"></img>
+// <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" className="technologies"></img>
+// <img src="https://cdn.worldvectorlogo.com/logos/nodejs-2.svg" className="technologies"></img>
+// <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" className="technologies"></img>
+// <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" className="technologies"></img>
+// <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" className="technologies"></img> */}
