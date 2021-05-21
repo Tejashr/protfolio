@@ -54,18 +54,6 @@ function About(){
                 </div>
                 </div>
             </div>
-            {/* <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
-                </div>
-                </div>
-            </div> */}
-        
             </div>
         </div>
         </section>

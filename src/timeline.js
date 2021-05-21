@@ -9,7 +9,7 @@ function Timeline() {
                         <div className="row">
                             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                                 <span className="heading-meta">highlights</span>
-                                <h2 className="colorlib-heading animate-box">Education</h2>
+                                <h2 className="colorlib-heading animate-box">Education & Experience</h2>
                             </div>
                         </div>
                         <div className="row">
@@ -43,8 +43,19 @@ function Timeline() {
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h2>Higher Education <span>2013-2015</span></h2>
+                                                <h2>Higher Education at Sri Chaitanya PU College<span>2013-2015</span></h2>
                                                 <p>I have completed my higher secondary education with major subjects as Physics,Chemistry,Maths & Computer Science with 78% in Sri Chaitanya PU College. During my time at College, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div className="timeline-entry-inner">
+                                            <div className="timeline-icon color-2">
+                                                <i className="icon-pen2" />
+                                            </div>
+                                            <div className="timeline-label">
+                                                <h2>SSLC at The Presidency Public School<span>2012-2013</span></h2>
+                                                <p>I have completed my SSLC in The Presidency public school ,Sira with 84.16%</p>
                                             </div>
                                         </div>
                                     </article>
@@ -67,13 +78,3 @@ function Timeline() {
 
 export default Timeline;
 
-
-// {/* <img src="https://cdn.worldvectorlogo.com/logos/javascript.svg" className="technologies"></img>
-// {/* <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" className="technologies"></img> */}
-// <img src="https://cdn.worldvectorlogo.com/logos/html5.svg" className="technologies"></img>
-// <img src="https://cdn.worldvectorlogo.com/logos/css3.svg" className="technologies"></img>
-// <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" className="technologies"></img>
-// <img src="https://cdn.worldvectorlogo.com/logos/nodejs-2.svg" className="technologies"></img>
-// <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" className="technologies"></img>
-// <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" className="technologies"></img>
-// <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" className="technologies"></img> */}

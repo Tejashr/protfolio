@@ -13,6 +13,7 @@ import About from './about';
 import Introduction from './intro';
 import Timeline from './timeline';
 import Projects from './projects';
+import Skills from './skills';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <About></About>
               <Projects></Projects>
               <Timeline></Timeline>
+              <Skills></Skills>
             </div>
           </div>
         </div>

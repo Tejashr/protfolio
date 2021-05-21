@@ -21,6 +21,7 @@ function Nav() {
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Education</a></li>
+                  <li><a href="#skills" data-nav-section="skill">Skills</a></li>
                 </ul>
               </div>
             </nav>

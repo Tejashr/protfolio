@@ -221,6 +221,13 @@ figure {
   max-width: 1170px;
   margin: 0 auto; }
 
+.sk{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 #colorlib-main {
   width: calc(100% - 300px);
   float: right;
@@ -1436,3 +1443,4 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
