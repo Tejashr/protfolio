@@ -14,6 +14,7 @@ import Introduction from './intro';
 import Timeline from './timeline';
 import Projects from './projects';
 import Skills from './skills';
+import Tools from './tools';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Projects></Projects>
               <Timeline></Timeline>
               <Skills></Skills>
+              <Tools></Tools>
             </div>
           </div>
         </div>
