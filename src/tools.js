@@ -1,4 +1,9 @@
 import React from "react";
+import vscode from './images/vscode.png';
+import netbeans from './images/netbeans.png';
+import postman from './images/postman.png';
+import xammp from './images/xammp.png';
+import github from './images/github.png';
 
 function Tools() {
     return (
@@ -12,11 +17,11 @@ function Tools() {
                             </div>
                         </div>
                         <div>
-                        <img src="images/vscode.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/netbeans.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/postman.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/xammp.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/github.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${vscode}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${netbeans}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${postman}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${xammp}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${github}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
                         </div>
                     </div>
                 </ section>

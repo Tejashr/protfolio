@@ -1,5 +1,7 @@
 import React from "react";
-import About from "./about";
+import bg1 from './images/key.jpg';
+import bg2 from './images/bg2.jpg';
+import bg3 from './images/bg3.jpg';
 
 function Introduction(){
     return (
@@ -8,7 +10,7 @@ function Introduction(){
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{backgroundImage: 'url(images/key.jpg)'}}>
+              <li style={{backgroundImage: `url(${bg1})`}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -23,7 +25,7 @@ function Introduction(){
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/bg2.jpg'}}>
+              <li style={{backgroundImage: `url(${bg2})`}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -38,7 +40,7 @@ function Introduction(){
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/bg3.jpg)'}}>
+              <li style={{backgroundImage: `url(${bg3})`}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">

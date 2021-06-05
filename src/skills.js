@@ -1,4 +1,18 @@
 import React from "react";
+import mongo from './images/mongo.png';
+import express from './images/express.png';
+import react from './images/react-img.png';
+import node from './images/node.png';
+import html from './images/html.png';
+import css from './images/css.png';
+import bootstrap from './images/bootstrap.png';
+import cpp from './images/cpp_logo.png';
+import c from './images/c.png';
+import javascript from './images/javascript.png';
+import java from './images/java.png';
+import aws from './images/aws.png';
+import mysql from './images/mysql.png';
+
 
 function Skills() {
     return (
@@ -11,19 +25,19 @@ function Skills() {
                                 <h2 className="colorlib-heading animate-box">Skills</h2>
                             </div>
                         </div>
-                        <img src="images/mongo.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/express.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/react-img.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/node.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/html.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/css.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/bootstrap.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/cpp_logo.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/c.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/javascript.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/java.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
-                        <img src="images/aws.png" className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
-                        <img src="images/mysql.png" className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${mongo}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${express}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${react}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${node}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${html}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${css}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${bootstrap}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${cpp}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${c}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${javascript}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${java}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
+                        <img src={`${aws}`} className="sk animate-box" data-animate-effect="fadeInRight" alt="img"></img>
+                        <img src={`${mysql}`} className="sk animate-box" data-animate-effect="fadeInLeft" alt="img"></img>
                     </div>
                 </ section>
             </div>
