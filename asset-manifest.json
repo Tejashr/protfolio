@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.aa5ff83d.chunk.css",
-    "main.js": "/protfolio/static/js/main.0e08df16.chunk.js",
-    "main.js.map": "/protfolio/static/js/main.0e08df16.chunk.js.map",
+    "main.js": "/protfolio/static/js/main.f3b8a39a.chunk.js",
+    "main.js.map": "/protfolio/static/js/main.f3b8a39a.chunk.js.map",
     "runtime-main.js": "/protfolio/static/js/runtime-main.20a00a90.js",
     "runtime-main.js.map": "/protfolio/static/js/runtime-main.20a00a90.js.map",
     "static/css/2.379a8125.chunk.css": "/protfolio/static/css/2.379a8125.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/cpp_logo.053a898d.png": "/protfolio/static/media/cpp_logo.053a898d.png",
     "static/media/css.d8d8122b.png": "/protfolio/static/media/css.d8d8122b.png",
     "static/media/github.70f7d1b5.png": "/protfolio/static/media/github.70f7d1b5.png",
+    "static/media/hiring.48a3aaaa.jpg": "/protfolio/static/media/hiring.48a3aaaa.jpg",
     "static/media/java.6b69aa9e.png": "/protfolio/static/media/java.6b69aa9e.png",
     "static/media/key.ff802ca5.jpg": "/protfolio/static/media/key.ff802ca5.jpg",
     "static/media/logo.6ce24c58.svg": "/protfolio/static/media/logo.6ce24c58.svg",
@@ -39,6 +40,6 @@
     "static/css/2.379a8125.chunk.css",
     "static/js/2.662a733f.chunk.js",
     "static/css/main.aa5ff83d.chunk.css",
-    "static/js/main.0e08df16.chunk.js"
+    "static/js/main.f3b8a39a.chunk.js"
   ]
 }
