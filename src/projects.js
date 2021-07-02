@@ -2,6 +2,7 @@ import React from "react";
 import url from './images/url.jpg';
 import bms from './images/bookmyshow.jpg';
 import swipe from './images/swipe.png';
+import hire from './images/hiring.jpg';
 
 function Projects() {
     return (
@@ -53,7 +54,23 @@ function Projects() {
                                     <div className="desc">
                                         <div className="con">
                                             <h3><a href="https://swiping-cards.netlify.app/" target="_blank">Swiping Cards</a></h3>
-                                            <span>A Full Stack Website for Swiping the cards.<br/>Here the user will accept or reject the images</span>
+                                            <span>A Full Stack Website for Swiping the cards.<br/>Here the user will accept or reject the images.</span>
+                                            <p className="icon">
+                                            <span><a className="bg-secondary text-light">Tech used</a></span>
+                                                <span><a>ReactJs</a></span>
+                                                <span><a>MongoDB</a></span>
+                                                <span><a>NodeJs</a></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                                <div className="project" style={{ backgroundImage: `url(${hire})` }}>
+                                    <div className="desc">
+                                        <div className="con">
+                                            <h3><a href="https://hiring-fe.netlify.app/" target="_blank">Hiring</a></h3>
+                                            <span>A Full Stack Website for appling job.<br/>Here the user will finds the job for applying.<br/>Recruiter will post the job and he can see the list of candidates applied for his jobs.</span>
                                             <p className="icon">
                                             <span><a className="bg-secondary text-light">Tech used</a></span>
                                                 <span><a>ReactJs</a></span>
