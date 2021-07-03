@@ -33,22 +33,7 @@ function Projects() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{ backgroundImage: `url(${url})`}}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="https://urlfront.herokuapp.com/" target="_blank">URL Shortner</a></h3>
-                                            <span>A Full Stack Website for Shortning the given long URL.<br/>Here user will enter the long url after logging in and user will get his short url.</span>
-                                            <p className="icon">
-                                            <span><a className="bg-secondary text-light">Tech used</a></span>
-                                                <span><a>ReactJs</a></span>
-                                                <span><a>MongoDB</a></span>
-                                                <span><a>NodeJs</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
                                 <div className="project" style={{ backgroundImage: `url(${swipe})` }}>
                                     <div className="desc">
