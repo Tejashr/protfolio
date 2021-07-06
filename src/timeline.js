@@ -44,7 +44,7 @@ function Timeline() {
                                             </div>
                                             <div className="timeline-label">
                                                 <h2>Higher Education at Sri Chaitanya PU College<span>2013-2015</span></h2>
-                                                <p>I have completed my higher secondary education with major subjects as Physics,Chemistry,Maths & Computer Science with 78% in Sri Chaitanya PU College. During my time at College, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p>
+                                                <p>I have completed my higher secondary education with major subjects as Physics,Chemistry,Maths & Computer Science with 78% in Sri Chaitanya PU College Bengaluru. During my time at College, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p>
                                             </div>
                                         </div>
                                     </article>

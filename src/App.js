@@ -12,6 +12,7 @@ import Timeline from './timeline';
 import Projects from './projects';
 import Skills from './skills';
 import Tools from './tools';
+import Certificate from './certificate';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Introduction></Introduction>
               <About></About>
               <Projects></Projects>
+              <Certificate></Certificate>
               <Timeline></Timeline>
               <Skills></Skills>
               <Tools></Tools>
