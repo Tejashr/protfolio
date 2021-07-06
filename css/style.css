@@ -942,6 +942,8 @@ body.offcanvas {
     .work-menu span a.active {
       color: #2c98f0; }
 
+      
+
 .project {
   background-size: cover;
   background-position: center center;
@@ -1037,6 +1039,18 @@ body.offcanvas {
     .project:hover .desc span {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
+
+
+.certificate {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  display: block;
+  margin-bottom: 30px; }
+
 
 .btn-load-more {
   width: 100%; }

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.aa5ff83d.chunk.css",
-    "main.js": "/protfolio/static/js/main.f3b8a39a.chunk.js",
-    "main.js.map": "/protfolio/static/js/main.f3b8a39a.chunk.js.map",
+    "main.js": "/protfolio/static/js/main.5f108da3.chunk.js",
+    "main.js.map": "/protfolio/static/js/main.5f108da3.chunk.js.map",
     "runtime-main.js": "/protfolio/static/js/runtime-main.20a00a90.js",
     "runtime-main.js.map": "/protfolio/static/js/runtime-main.20a00a90.js.map",
     "static/css/2.379a8125.chunk.css": "/protfolio/static/css/2.379a8125.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.aa5ff83d.chunk.css.map": "/protfolio/static/css/main.aa5ff83d.chunk.css.map",
     "static/js/2.662a733f.chunk.js.LICENSE.txt": "/protfolio/static/js/2.662a733f.chunk.js.LICENSE.txt",
     "static/media/IMG_1188.bf0e0bbd.JPG": "/protfolio/static/media/IMG_1188.bf0e0bbd.JPG",
+    "static/media/SIH.920a2841.jpg": "/protfolio/static/media/SIH.920a2841.jpg",
     "static/media/aws.210a65d4.png": "/protfolio/static/media/aws.210a65d4.png",
     "static/media/bg2.af009a1d.jpg": "/protfolio/static/media/bg2.af009a1d.jpg",
     "static/media/bg3.f44a2f4c.jpg": "/protfolio/static/media/bg3.f44a2f4c.jpg",
@@ -22,6 +23,7 @@
     "static/media/c.da6ce098.png": "/protfolio/static/media/c.da6ce098.png",
     "static/media/cpp_logo.053a898d.png": "/protfolio/static/media/cpp_logo.053a898d.png",
     "static/media/css.d8d8122b.png": "/protfolio/static/media/css.d8d8122b.png",
+    "static/media/fullstack.cc3f8a8e.jpeg": "/protfolio/static/media/fullstack.cc3f8a8e.jpeg",
     "static/media/github.70f7d1b5.png": "/protfolio/static/media/github.70f7d1b5.png",
     "static/media/hiring.48a3aaaa.jpg": "/protfolio/static/media/hiring.48a3aaaa.jpg",
     "static/media/java.6b69aa9e.png": "/protfolio/static/media/java.6b69aa9e.png",
@@ -32,6 +34,7 @@
     "static/media/netbeans.a2e8dff2.png": "/protfolio/static/media/netbeans.a2e8dff2.png",
     "static/media/node.7a62b736.png": "/protfolio/static/media/node.7a62b736.png",
     "static/media/swipe.b7bf572d.png": "/protfolio/static/media/swipe.b7bf572d.png",
+    "static/media/toolkit.84f51705.jpeg": "/protfolio/static/media/toolkit.84f51705.jpeg",
     "static/media/vscode.61514005.png": "/protfolio/static/media/vscode.61514005.png",
     "static/media/xammp.405d76eb.png": "/protfolio/static/media/xammp.405d76eb.png"
   },
@@ -40,6 +43,6 @@
     "static/css/2.379a8125.chunk.css",
     "static/js/2.662a733f.chunk.js",
     "static/css/main.aa5ff83d.chunk.css",
-    "static/js/main.f3b8a39a.chunk.js"
+    "static/js/main.5f108da3.chunk.js"
   ]
 }
