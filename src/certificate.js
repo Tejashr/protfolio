@@ -1,5 +1,6 @@
 import React from "react";
 import toolkit from './images/toolkit.jpeg';
+import js from './images/js.png';
 import fullstack from './images/fullstack.jpeg';
 import sih from './images/SIH.jpg';
 
@@ -17,6 +18,10 @@ function Certificate() {
                         <div className="row">
                             <div className="col-md-6 animate-box" data-animate-effect="fadeInRight" >
                                 <div className="certificate" style={{ backgroundImage: `url(${fullstack})` }}>
+                                </div>
+                            </div>
+                            <div className="col-md-6 animate-box" data-animate-effect="fadeInRight" >
+                                <div className="certificate" style={{ backgroundImage: `url(${js})` }}>
                                 </div>
                             </div>
                             <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
