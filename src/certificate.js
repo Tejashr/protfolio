@@ -16,7 +16,7 @@ function Certificate() {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-6 animate-box" data-animate-effect="fadeInRight" >
+                            <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft" >
                                 <div className="certificate" style={{ backgroundImage: `url(${fullstack})` }}>
                                 </div>
                             </div>
