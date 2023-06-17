@@ -19,9 +19,9 @@ function Nav() {
                 <ul>
                   <li className="active"><a href="#intro" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  <li><a href="#projects" data-nav-section="projects">Projects</a></li>
+                  {/* <li><a href="#projects" data-nav-section="projects">Projects</a></li> */}
+                  <li><a href="#timeline" data-nav-section="timeline">Experience</a></li>
                   <li><a href="#certificate" data-nav-section="certificate">Certificates</a></li>
-                  <li><a href="#timeline" data-nav-section="timeline">Education</a></li>
                   <li><a href="#skills" data-nav-section="skill">Skills</a></li>
                   <li><a href="#tools" data-nav-section="tools">Tools</a></li>
                 </ul>
@@ -29,7 +29,7 @@ function Nav() {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-              <li><a href="https://drive.google.com/file/d/1Vd_Y46ioU9GABc5GgkRjeop-2_7q20Jk/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></li>
+              <li><a href="https://drive.google.com/file/d/1UFHJxMWlEU2FG5VLRgtk18vJgrVj_1g8/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></li>
                 <li><a href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/Tejashr" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>

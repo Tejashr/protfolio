@@ -15,7 +15,7 @@ function About(){
                     <span className="heading-meta">About</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <h4>I am a computer grad student from ATME college of engg-Mysuru with CSE as my major.</h4>
-                   <h4>I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years </h4>
+                   <h4>Passionate Full Stack Web Developer with experience in JS, React, NodeJs,MongoDB,Mysql, ExpressJS ,HTML,CSS and Bootstrap .Bringing a keen eye for details, strong ability to implement mock-ups, and understanding of great user experience design </h4>
                     </div>
                 </div>
                 </div>
@@ -39,11 +39,11 @@ function About(){
                 </span>
                 <div className="desc">
                     <h3>Full Stack Web Development </h3>
-                    <p>I have experience building websites using JavaScript,ReactJS,Express,MongoDB,NodeJS,HTML,CSS</p>
+                    <p>I have experience building websites using JavaScript,ReactJS,Express,MongoDB,Mysql,NodeJS,HTML,CSS</p>
                 </div>
                 </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            {/* <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
                     <i className="icon-phone3" />
@@ -53,7 +53,7 @@ function About(){
                     <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
                 </div>
                 </div>
-            </div>
+            </div> */}
             </div>
         </div>
         </section>

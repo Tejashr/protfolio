@@ -13,6 +13,7 @@ import Projects from './projects';
 import Skills from './skills';
 import Tools from './tools';
 import Certificate from './certificate';
+import Experience from './Experience';
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
             <div id="colorlib-main">
               <Introduction></Introduction>
               <About></About>
-              <Projects></Projects>
-              <Certificate></Certificate>
+              {/* <Projects></Projects> */}
+              <Experience />
               <Timeline></Timeline>
+              <Certificate></Certificate>
               <Skills></Skills>
               <Tools></Tools>
             </div>
