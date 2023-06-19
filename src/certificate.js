@@ -24,10 +24,10 @@ function Certificate() {
                                 <div className="certificate" style={{ backgroundImage: `url(${js})` }}>
                                 </div>
                             </div>
-                            <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                            {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                                 <div className="certificate" style={{ backgroundImage: `url(${toolkit})` }}>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
                                 <div className="certificate" style={{ backgroundImage: `url(${sih})` }}>
                                 </div>
