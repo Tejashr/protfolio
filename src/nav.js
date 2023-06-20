@@ -1,5 +1,5 @@
 import React from "react";
-import Tejas from './images/IMG_1188.JPG';
+import Tejas from './images/profile.jpeg';
 
 function Nav() {
 
@@ -29,7 +29,7 @@ function Nav() {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-              <li><a href="https://drive.google.com/file/d/1UFHJxMWlEU2FG5VLRgtk18vJgrVj_1g8/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1UFHJxMWlEU2FG5VLRgtk18vJgrVj_1g8/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></li>
                 <li><a href="https://www.linkedin.com/in/tejas-hr-700743128/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/Tejashr" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
               </ul>
