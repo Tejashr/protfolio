@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/protfolio/static/js/main.7980f484.chunk.js",
-    "main.js.map": "/protfolio/static/js/main.7980f484.chunk.js.map",
+    "main.js": "/protfolio/static/js/main.6eae4dea.chunk.js",
+    "main.js.map": "/protfolio/static/js/main.6eae4dea.chunk.js.map",
     "runtime-main.js": "/protfolio/static/js/runtime-main.20a00a90.js",
     "runtime-main.js.map": "/protfolio/static/js/runtime-main.20a00a90.js.map",
     "static/css/2.379a8125.chunk.css": "/protfolio/static/css/2.379a8125.chunk.css",
@@ -33,7 +33,7 @@
     "static/media/mysql.6e42b2a0.png": "/protfolio/static/media/mysql.6e42b2a0.png",
     "static/media/netbeans.a2e8dff2.png": "/protfolio/static/media/netbeans.a2e8dff2.png",
     "static/media/node.7a62b736.png": "/protfolio/static/media/node.7a62b736.png",
-    "static/media/profile.1a6ca8e9.jpeg": "/protfolio/static/media/profile.1a6ca8e9.jpeg",
+    "static/media/profile.5e1a63c8.png": "/protfolio/static/media/profile.5e1a63c8.png",
     "static/media/swipe.b7bf572d.png": "/protfolio/static/media/swipe.b7bf572d.png",
     "static/media/toolkit.84f51705.jpeg": "/protfolio/static/media/toolkit.84f51705.jpeg",
     "static/media/vscode.61514005.png": "/protfolio/static/media/vscode.61514005.png",
@@ -44,6 +44,6 @@
     "static/css/2.379a8125.chunk.css",
     "static/js/2.0f0f09b3.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.7980f484.chunk.js"
+    "static/js/main.6eae4dea.chunk.js"
   ]
 }
