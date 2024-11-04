@@ -1,0 +1,28 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "heading": "Full Stack Web development course at GUVI",
+      "duration": "2021 Feb-2021 June",
+      "description": "I joined GUVI as a Full stack web development-student. My major part of the work has been into the field of creating sustainable and flexible Full Stack Websites using Reactjs as frontend and mongodb as backend and express as server.and some basic knowledge of AWS and also some Basics of DS and Algorithms."
+    },
+    {
+      "id": 2,
+      "heading": "Full Stack Web Developer at Uraan softskills pvt ltd",
+      "duration": "2021 July-2021 Nov",
+      "description": "Cleared the bugs according to the test cases,Handled full stack project of MERN,Helped teammates by resolving their code, and i was using Reactjs as frontend and mongodb as backend and express as server"
+    },
+    {
+      "id": 3,
+      "heading": "Full Stack Web Developer at Taskmo",
+      "duration": "2021 Dec - 2024 Mar",
+      "description": "Created dashboard for client management and internal team management,Designed dashboard using reactjs,html,css,mui and bootstrap,Delivered the given products in time or before,Coded software updates to add new features, close security holes, and resolve defects,Experience in writing apis using Node and Express for business logic"
+    },
+    {
+      "id": 4,
+      "heading": "Full Stack Web Developer at Dvara Solutions",
+      "duration": "2024 Mar - Present",
+      "description": "Develop scalable software solutions as part of a cross-functional team. Be responsible for the full software development life cycle, from conception to deployment"
+    }
+  ]
+}
