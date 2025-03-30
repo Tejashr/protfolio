@@ -1,5 +1,5 @@
 import React from "react";
-import Tejas from "./images/profile.png";
+import Tejas from "./images/tejas.jpg";
 
 function Nav() {
   return (

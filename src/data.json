@@ -21,8 +21,14 @@
     {
       "id": 4,
       "heading": "Full Stack Web Developer at Dvara Solutions",
-      "duration": "2024 Mar - Present",
+      "duration": "2024 Mar - 2024 Nov",
       "description": "Develop scalable software solutions as part of a cross-functional team. Be responsible for the full software development life cycle, from conception to deployment"
+    },
+    {
+      "id": 5,
+      "heading": "Full Stack Web Developer at Eli Lilly and Company",
+      "duration": "2024 Dec - Present",
+      "description": "Contributing as a Full Stack Web Developer with React.js as the frontend and Node.js as the backend. Responsible for developing scalable and efficient software solutions, collaborating with cross-functional teams, and ensuring seamless integration of frontend and backend components."
     }
   ]
 }
