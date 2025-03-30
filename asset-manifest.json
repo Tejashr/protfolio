@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/protfolio/static/js/main.69229a0f.chunk.js",
-    "main.js.map": "/protfolio/static/js/main.69229a0f.chunk.js.map",
+    "main.js": "/protfolio/static/js/main.cfccafd1.chunk.js",
+    "main.js.map": "/protfolio/static/js/main.cfccafd1.chunk.js.map",
     "runtime-main.js": "/protfolio/static/js/runtime-main.3c3f50d4.js",
     "runtime-main.js.map": "/protfolio/static/js/runtime-main.3c3f50d4.js.map",
     "static/css/2.47065cc7.chunk.css": "/protfolio/static/css/2.47065cc7.chunk.css",
@@ -33,8 +33,8 @@
     "static/media/mysql.6e42b2a0.png": "/protfolio/static/media/mysql.6e42b2a0.png",
     "static/media/netbeans.a2e8dff2.png": "/protfolio/static/media/netbeans.a2e8dff2.png",
     "static/media/node.7a62b736.png": "/protfolio/static/media/node.7a62b736.png",
-    "static/media/profile.5e1a63c8.png": "/protfolio/static/media/profile.5e1a63c8.png",
     "static/media/swipe.b7bf572d.png": "/protfolio/static/media/swipe.b7bf572d.png",
+    "static/media/tejas.1c9ac50c.jpg": "/protfolio/static/media/tejas.1c9ac50c.jpg",
     "static/media/toolkit.84f51705.jpeg": "/protfolio/static/media/toolkit.84f51705.jpeg",
     "static/media/vscode.61514005.png": "/protfolio/static/media/vscode.61514005.png",
     "static/media/xammp.405d76eb.png": "/protfolio/static/media/xammp.405d76eb.png"
@@ -44,6 +44,6 @@
     "static/css/2.47065cc7.chunk.css",
     "static/js/2.78793680.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.69229a0f.chunk.js"
+    "static/js/main.cfccafd1.chunk.js"
   ]
 }
