@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: 'Instrument Serif';
+        src: url('../public/fonts/instrument-serif-latin-400-normal.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-weight: 400;
+        src: url('../public/fonts/inter-latin-400-normal.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-weight: 500;
+        src: url('../public/fonts/inter-latin-500-normal.woff2') format('woff2');
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+      }
+      body {
+        position: relative;
+        background: #f9f9f7;
+        color: #171715;
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .frame {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: 1fr 380px;
+        padding: 64px;
+        gap: 48px;
+      }
+      .copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .label {
+        font-family: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+        font-size: 15px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #85837b;
+      }
+      h1 {
+        margin: 0;
+        font-family: 'Instrument Serif', Georgia, serif;
+        font-weight: 400;
+        font-size: 92px;
+        line-height: 0.96;
+        letter-spacing: -0.02em;
+        max-width: 640px;
+      }
+      .foot {
+        display: flex;
+        align-items: baseline;
+        gap: 18px;
+        border-top: 1px solid #e5e3d9;
+        padding-top: 22px;
+      }
+      .name {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .role {
+        font-size: 15px;
+        color: #5f5e58;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .portrait {
+        width: 380px;
+        height: 502px;
+        object-fit: cover;
+        border-radius: 2px;
+        filter: grayscale(1) contrast(1.04);
+      }
+      .tint {
+        position: absolute;
+        top: 64px;
+        right: 64px;
+        width: 380px;
+        height: 502px;
+        background: rgba(234, 232, 224, 0.16);
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="copy">
+        <p class="label">Full-Stack Developer · Bengaluru, India</p>
+        <h1>I build web products that work in production.</h1>
+        <div class="foot">
+          <span class="name">Tejas HR</span>
+          <span class="role">tejashr.github.io/protfolio</span>
+        </div>
+      </div>
+      <img class="portrait" src="../src/assets/images/tejas-portrait.jpg" alt="" />
+      <div class="tint"></div>
+    </div>
+  </body>
+</html>

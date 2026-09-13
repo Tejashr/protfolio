@@ -1,0 +1,15 @@
+{
+  "name": "Tejas HR — Full-Stack Developer",
+  "short_name": "Tejas HR",
+  "description": "Portfolio of Tejas HR, full-stack developer in Bengaluru.",
+  "start_url": "/protfolio/",
+  "scope": "/protfolio/",
+  "display": "standalone",
+  "background_color": "#f9f9f7",
+  "theme_color": "#f9f9f7",
+  "icons": [
+    { "src": "/protfolio/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/protfolio/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/protfolio/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

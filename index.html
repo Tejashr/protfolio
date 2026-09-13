@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tejas HR — Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Tejas HR is a full-stack developer in Bengaluru who builds React front-ends, Node.js APIs and the data layers underneath them. Currently at Eli Lilly and Company; previously Dvara Solutions, Taskmo and Uraan Softskills."
+    />
+    <meta name="author" content="Tejas HR" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://tejashr.github.io/protfolio/" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f9f9f7" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f100e" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Tejas HR" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:title" content="Tejas HR — Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full-stack developer in Bengaluru building React front-ends, Node.js APIs and the data layers underneath them. Currently at Eli Lilly and Company."
+    />
+    <meta property="og:url" content="https://tejashr.github.io/protfolio/" />
+    <meta property="og:image" content="https://tejashr.github.io/protfolio/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Tejas HR, full-stack developer" />
+    <meta property="profile:first_name" content="Tejas" />
+    <meta property="profile:last_name" content="HR" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tejas HR — Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Full-stack developer in Bengaluru building React front-ends, Node.js APIs and the data layers underneath them."
+    />
+    <meta name="twitter:image" content="https://tejashr.github.io/protfolio/og-image.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preload" href="/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Apply the saved or system theme before first paint so there is no flash. -->
+    <script>
+      (function () {
+        var root = document.documentElement;
+        try {
+          var stored = localStorage.getItem('tejas-theme');
+          var system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          var theme = stored === 'light' || stored === 'dark' ? stored : system;
+          root.setAttribute('data-theme', theme);
+          root.setAttribute('data-theme-preference', stored === 'light' || stored === 'dark' ? stored : 'system');
+        } catch (error) {
+          root.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://tejashr.github.io/protfolio/#person",
+            "name": "Tejas HR",
+            "givenName": "Tejas",
+            "jobTitle": "Full-Stack Developer",
+            "description": "Full-stack developer in Bengaluru building React front-ends, Node.js APIs and the data layers underneath them. Currently at Eli Lilly and Company.",
+            "url": "https://tejashr.github.io/protfolio/",
+            "email": "mailto:tejasteju11@gmail.com",
+            "image": "https://tejashr.github.io/protfolio/og-image.png",
+            "address": { "@type": "PostalAddress", "addressLocality": "Bengaluru", "addressCountry": "IN" },
+            "worksFor": { "@type": "Organization", "name": "Eli Lilly and Company" },
+            "alumniOf": { "@type": "CollegeOrUniversity", "name": "ATME College of Engineering" },
+            "sameAs": ["https://www.linkedin.com/in/tejas-hr-700743128/", "https://github.com/Tejashr"],
+            "knowsAbout": [
+              "Full-stack web development",
+              "React",
+              "Node.js",
+              "Express",
+              "MongoDB",
+              "MySQL",
+              "JavaScript",
+              "TypeScript",
+              "REST APIs",
+              "Material UI",
+              "Bootstrap"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://tejashr.github.io/protfolio/#website",
+            "url": "https://tejashr.github.io/protfolio/",
+            "name": "Tejas HR — Full-Stack Developer",
+            "inLanguage": "en",
+            "author": { "@id": "https://tejashr.github.io/protfolio/#person" }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://tejashr.github.io/protfolio/#webpage",
+            "url": "https://tejashr.github.io/protfolio/",
+            "name": "Tejas HR — Full-Stack Developer",
+            "isPartOf": { "@id": "https://tejashr.github.io/protfolio/#website" },
+            "mainEntity": { "@id": "https://tejashr.github.io/protfolio/#person" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "ItemList",
+            "name": "Selected work by Tejas HR",
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "SoftwareSourceCode",
+                  "name": "BookMyShow Clone",
+                  "description": "A movie ticket-booking web application with user accounts, bookings and an admin role. React, Node.js, Express, MongoDB.",
+                  "url": "https://bookmyshowtejas.netlify.app/",
+                  "codeRepository": "https://github.com/Tejashr/bookmyshowreact",
+                  "programmingLanguage": "JavaScript",
+                  "author": { "@id": "https://tejashr.github.io/protfolio/#person" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Swiping Cards",
+                  "description": "A swipe-driven image review app that stores each accept, reject and skip decision per user. React, Node.js, Express, MongoDB.",
+                  "url": "https://swiping-cards.netlify.app/",
+                  "codeRepository": "https://github.com/Tejashr/swiping-cards-fe",
+                  "programmingLanguage": "JavaScript",
+                  "author": { "@id": "https://tejashr.github.io/protfolio/#person" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "SoftwareSourceCode",
+                  "name": "Hiring",
+                  "description": "A two-sided job platform where candidates apply and recruiters post roles and review applicants. React, Node.js, Express, MongoDB.",
+                  "codeRepository": "https://github.com/Tejashr/Hiring-fe",
+                  "programmingLanguage": "JavaScript",
+                  "author": { "@id": "https://tejashr.github.io/protfolio/#person" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "SoftwareSourceCode",
+                  "name": "URL Shortener",
+                  "description": "An authenticated URL-shortening service with a Node.js API for accounts, email and redirects. React, Node.js, Express, MongoDB.",
+                  "codeRepository": "https://github.com/Tejashr/url",
+                  "programmingLanguage": "JavaScript",
+                  "author": { "@id": "https://tejashr.github.io/protfolio/#person" }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

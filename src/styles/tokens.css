@@ -1,0 +1,109 @@
+/* ---------------------------------------------------------------------------
+   Design tokens
+   Every colour, type size, space, border and motion value used by the site
+   lives here. Components only ever reference these custom properties.
+   --------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: light;
+
+  /* Light theme — warm paper. Palette: color-hex.com/color-palette/112728 */
+  --color-bg: #f9f9f7;
+  --color-surface: #f4f3ef;
+  --color-surface-2: #efeee8;
+  --color-border: #eae8e0;
+  --color-border-strong: #e5e3d9;
+  --color-text: #171715;
+  --color-text-2: #5f5e58;
+  /* Muted: the palette's #85837b reads at 3.6:1 on paper, below AA for the
+     small labels it is used on, so it is deepened to 4.9:1. */
+  --color-text-3: #6f6d64;
+  --color-accent: #6f6a4e;
+  --color-accent-soft: #c3bea6;
+  --color-image-tint: rgba(234, 232, 224, 0.16);
+  --color-scrim: rgba(249, 249, 247, 0.84);
+  --shadow-float: 0 32px 64px -32px rgba(23, 23, 21, 0.28);
+
+  /* Typography */
+  --font-display: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: clamp(1.0625rem, 0.95rem + 0.45vw, 1.25rem);
+  --text-lg: clamp(1.25rem, 1.05rem + 0.9vw, 1.75rem);
+  --text-xl: clamp(1.5rem, 1.15rem + 1.5vw, 2.375rem);
+  --display-sm: clamp(1.75rem, 1.3rem + 2vw, 3rem);
+  --display-md: clamp(2.25rem, 1.45rem + 3.4vw, 4.5rem);
+  --display-lg: clamp(2.75rem, 1.55rem + 5.4vw, 6.75rem);
+  --display-xl: clamp(3rem, 1.3rem + 8vw, 9.25rem);
+
+  --leading-tight: 0.98;
+  --leading-snug: 1.12;
+  --leading-normal: 1.55;
+  --leading-relaxed: 1.72;
+  --tracking-caps: 0.12em;
+  --tracking-tight: -0.012em;
+  --tracking-display: -0.018em;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --gutter: clamp(1.25rem, 4.5vw, 4rem);
+  --section-space: clamp(6rem, 12vw, 11rem);
+  --container-max: 1640px;
+  --measure: 58ch;
+  --nav-height: 4.5rem;
+  --nav-height-scrolled: 3.5rem;
+
+  /* Borders & radii */
+  --border-w: 1px;
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-std: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-fast: 160ms;
+  --dur-base: 320ms;
+  --dur-slow: 700ms;
+  --dur-reveal: 1000ms;
+
+  /* Layers */
+  --z-nav: 50;
+  --z-menu: 60;
+
+  /* Breakpoints (documentation only; media queries cannot read custom
+     properties). sm: 480px, md: 768px, lg: 1024px, xl: 1440px */
+}
+
+/* Dark theme — designed, not inverted. Cinematic, technical, warm. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg: #0f100e;
+  --color-surface: #161714;
+  --color-surface-2: #1d1f1b;
+  --color-border: #2a2c27;
+  --color-border-strong: #353730;
+  --color-text: #f4f3ef;
+  --color-text-2: #b9b8b0;
+  --color-text-3: #8b8a81; /* 5.2:1 on surface, AA for small labels */
+  --color-accent: #c9c2a6;
+  --color-accent-soft: #5e5a47;
+  --color-image-tint: rgba(201, 194, 166, 0.05);
+  --color-scrim: rgba(15, 16, 14, 0.82);
+  --shadow-float: 0 32px 64px -28px rgba(0, 0, 0, 0.7);
+}
