@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section" aria-labelledby="contact-title">
       <div className="container">
-        <SectionHeading number="05" title="Contact" id="contact-title" />
+        <SectionHeading number="04" title="Contact" id="contact-title" />
 
         <p className={`display ${s.statement}`} data-reveal>
           Let’s build something worth using.

@@ -4,9 +4,10 @@ Personal site of Tejas HR, full-stack developer. Live at
 [tejashr.github.io/protfolio](https://tejashr.github.io/protfolio/).
 
 A single-page, mobile-first editorial portfolio: React 19 built with Vite,
-no CSS framework, no animation library. Light and dark themes, self-hosted
-fonts, responsive AVIF/WebP images generated at build time, structured data
-for search engines and AI assistants.
+no CSS framework, no animation library. Sections: what I build, experience,
+about, contact. Light and dark themes, self-hosted fonts, responsive
+AVIF/WebP images generated at build time, structured data for search engines
+and AI assistants.
 
 ## Scripts
 
@@ -32,7 +33,6 @@ src/
   styles/base.css           Fonts, reset, utilities, reveal animations, reduced motion
   data/                     All content, as plain data
     profile.js              Name, title, location, email, links
-    projects.js             Selected work + the "recent, code only" footnote
     experience.js           Positions, newest first
     capabilities.js         What I build
     background.js           Recognition, education, certifications
@@ -41,7 +41,7 @@ src/
   components/               One folder-free component per section, each with a CSS module
   hooks/                    Theme, scroll state, active section, reveal, focus trap, body lock
   lib/                      Theme storage helpers, date helpers
-  assets/images/            Source images (portraits, project visuals, certificate)
+  assets/images/            Source images (portrait, portrait detail crop, certificate)
 scripts/
   make-icons.mjs            Regenerates the PNG icons from public/favicon.svg
   make-og.mjs               Renders public/og-image.png from scripts/og-template.html
@@ -52,11 +52,12 @@ scripts/
 
 ## Editing content
 
-Everything shown on the page comes from `src/data/`. To add a project, add an
-entry to `projects.js` with a `layout` of `full`, `split-right`, `split-left`
-or `typographic`, and import its image with the same `?w=...&format=...&as=picture`
-query the existing entries use; `vite-imagetools` produces the responsive
-variants at build time. To add a position, add an entry to `experience.js`.
+Everything shown on the page comes from `src/data/`. To add a position, add
+an entry to `experience.js`; to change the capability groups, edit
+`capabilities.js`. Images are imported with a `?w=...&format=...&as=picture`
+query and `vite-imagetools` produces the responsive variants at build time.
+The projects section that existed earlier in this branch's history can be
+restored from git if it is needed again.
 
 ## Theme
 

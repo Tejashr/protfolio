@@ -7,7 +7,7 @@ export default function ExperienceTimeline() {
     <section id="experience" className="section" aria-labelledby="experience-title">
       <div className="container">
         <SectionHeading
-          number="03"
+          number="02"
           title="Experience"
           id="experience-title"
           lead="Four companies since 2021, one discipline: building and shipping full-stack web software."

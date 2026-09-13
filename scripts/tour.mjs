@@ -21,7 +21,7 @@ await page.evaluate(() => document.fonts.ready);
 await page.waitForTimeout(2200);
 await page.screenshot({ path: path.join(outDir, `${width}-${theme}-hero.png`) });
 
-const stops = ['work', 'project-bookmyshow', 'project-swiping-cards', 'project-hiring', 'project-url-shortener', 'capabilities', 'experience', 'about', 'contact', 'footer'];
+const stops = ['capabilities', 'experience', 'about', 'contact', 'footer'];
 for (const id of stops) {
   await page.evaluate((target) => document.getElementById(target)?.scrollIntoView({ block: 'start', behavior: 'instant' }), id);
   await page.waitForTimeout(1500);

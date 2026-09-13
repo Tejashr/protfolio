@@ -7,7 +7,7 @@ export default function Capabilities() {
     <section id="capabilities" className="section" aria-labelledby="capabilities-title">
       <div className="container">
         <SectionHeading
-          number="02"
+          number="01"
           title="What I Build"
           id="capabilities-title"
           lead="Full-stack work across the interface, the API and the data underneath, from internal dashboards to authenticated products."

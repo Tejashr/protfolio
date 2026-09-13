@@ -59,7 +59,7 @@
 }
 
 .figure {
-  grid-column: 3 / -1;
+  grid-column: 2 / 12;
   order: 3;
   margin-top: var(--space-7);
   animation: fadeUp var(--dur-slow) var(--ease-out) both;

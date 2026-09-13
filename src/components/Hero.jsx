@@ -92,8 +92,8 @@ export default function Hero() {
           </figcaption>
         </figure>
 
-        <a href="#work" className={`label ${s.scrollCue}`}>
-          <span>Selected work</span>
+        <a href="#capabilities" className={`label ${s.scrollCue}`}>
+          <span>What I build</span>
           <span className={s.scrollLine} aria-hidden="true" />
         </a>
       </div>

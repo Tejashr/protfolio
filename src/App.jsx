@@ -5,7 +5,6 @@ import ExperienceTimeline from './components/ExperienceTimeline.jsx';
 import Footer from './components/Footer.jsx';
 import Hero from './components/Hero.jsx';
 import Navigation from './components/Navigation.jsx';
-import SelectedWork from './components/SelectedWork.jsx';
 import { useReveal } from './hooks/useReveal.js';
 import { useTheme } from './hooks/useTheme.js';
 
@@ -21,7 +20,6 @@ export default function App() {
       <Navigation theme={theme} onToggleTheme={toggle} preference={preference} onSetPreference={setPreference} />
       <main id="main">
         <Hero />
-        <SelectedWork />
         <Capabilities />
         <ExperienceTimeline />
         <About />

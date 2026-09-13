@@ -74,7 +74,7 @@ export default function About() {
   return (
     <section id="about" className="section" aria-labelledby="about-title">
       <div className="container">
-        <SectionHeading number="04" title={`About ${profile.firstName}`} id="about-title" />
+        <SectionHeading number="03" title={`About ${profile.firstName}`} id="about-title" />
 
         <div className={`grid ${s.layout}`}>
           <div className={s.aside}>
@@ -122,9 +122,8 @@ export default function About() {
                 the API and the data model, because that is what a user actually experiences.
               </p>
               <p>
-                Before that came a Computer Science engineering degree, a Smart India Hackathon grand finale in 2018,
-                and a run of side projects built to learn by shipping: a ticket-booking app, a job platform, a URL
-                shortener, a swipe-based image app. Each one full-stack, each one deployed.
+                Before that came a Computer Science engineering degree and a Smart India Hackathon grand finale in
+                2018.
               </p>
               <p>
                 The GitHub bio reads “open-source enthusiast, tech explorer”. That is a fair summary of how the time

@@ -161,7 +161,7 @@ for (const width of WIDTHS) {
   // Navigate via a menu link.
   await page.getByRole('button', { name: 'Menu' }).click();
   await page.waitForTimeout(500);
-  await page.getByRole('link', { name: /03\s*Experience/i }).click();
+  await page.getByRole('link', { name: /02\s*Experience/i }).click();
   await page.waitForTimeout(900);
   const hash = await page.evaluate(() => location.hash);
   if (hash !== '#experience') problems.push(`menu link did not navigate (hash=${hash})`);
