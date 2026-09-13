@@ -62,8 +62,9 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cursor {
-    display: none;
+  .cursorResting {
+    animation: none;
+    opacity: 0.5;
   }
 }
 
