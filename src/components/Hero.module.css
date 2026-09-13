@@ -29,25 +29,42 @@
   margin-top: var(--space-5);
   font-size: var(--display-xl);
   line-height: 0.96;
+  /* Reserve three lines so the typewriter never shifts the layout below it. */
+  min-height: 2.9em;
+  text-wrap: wrap;
+  animation: fadeUp var(--dur-slow) var(--ease-out) both;
+  animation-delay: 160ms;
 }
 
 .line {
   display: inline;
 }
 
-.wordMask {
+/* Typewriter caret: solid while typing, blinking while resting. */
+.cursor {
   display: inline-block;
-  overflow: hidden;
-  vertical-align: top;
-  padding: 0.06em 0.03em 0.16em;
-  margin: -0.06em -0.03em -0.16em;
+  width: 0.05em;
+  height: 0.78em;
+  margin-left: 0.06em;
+  background: currentColor;
+  vertical-align: baseline;
+  transform: translateY(0.04em);
 }
 
-.word {
-  display: inline-block;
-  transform: translateY(112%);
-  animation: wordIn 900ms var(--ease-out) forwards;
-  animation-delay: calc(140ms + var(--i) * 55ms);
+.cursorResting {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor {
+    display: none;
+  }
 }
 
 .lead {
@@ -131,12 +148,6 @@
 
 .scrollCue {
   display: none;
-}
-
-@keyframes wordIn {
-  to {
-    transform: none;
-  }
 }
 
 @keyframes fadeUp {
