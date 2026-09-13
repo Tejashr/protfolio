@@ -9,6 +9,8 @@ export const profile = {
   title: 'Full-Stack Developer',
   location: 'Bengaluru, India',
   email: 'tejasteju11@gmail.com',
+  /* Opens a Gmail web compose window instead of the OS mail client. */
+  composeUrl: 'https://mail.google.com/mail/?view=cm&fs=1&to=tejasteju11@gmail.com',
   careerStart: { year: 2021, month: 7 },
   currentCompany: 'Eli Lilly and Company',
   tagline: 'Dream without fear.',
@@ -20,7 +22,7 @@ export const profile = {
 };
 
 export const socialLinks = [
-  { label: 'Email', href: `mailto:${profile.email}`, display: profile.email, external: false },
+  { label: 'Email', href: profile.composeUrl, display: profile.email, external: true, copy: profile.email },
   { label: 'LinkedIn', href: profile.links.linkedin, display: 'linkedin.com/in/tejas-hr-700743128', external: true },
   { label: 'GitHub', href: profile.links.github, display: 'github.com/Tejashr', external: true },
 ];

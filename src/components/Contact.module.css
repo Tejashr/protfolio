@@ -27,14 +27,36 @@
   border-top: var(--border-w) solid var(--color-border);
 }
 
+.channelRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-4);
+  border-bottom: var(--border-w) solid var(--color-border);
+}
+
 .channel {
   display: grid;
   grid-template-columns: 5.5rem minmax(0, 1fr) auto;
   align-items: baseline;
   gap: var(--space-4);
   padding-block: var(--space-5);
-  border-bottom: var(--border-w) solid var(--color-border);
   transition: padding-left var(--dur-base) var(--ease-out);
+}
+
+.copy {
+  padding: 0.5em 0.9em;
+  border: var(--border-w) solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  color: var(--color-text-2);
+  transition:
+    color var(--dur-fast) var(--ease-std),
+    background-color var(--dur-fast) var(--ease-std);
+}
+
+.copy:hover {
+  color: var(--color-text);
+  background: var(--color-surface-2);
 }
 
 .channel:hover {
