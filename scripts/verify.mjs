@@ -218,7 +218,7 @@ for (const width of WIDTHS) {
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(150);
   const hidden = await page.evaluate(() =>
-    [...document.querySelectorAll('[data-reveal], h1')].filter((el) => {
+    [...document.querySelectorAll('[data-reveal], h1 span span')].filter((el) => {
       const cs = getComputedStyle(el);
       return parseFloat(cs.opacity) < 0.99 || (cs.clipPath && cs.clipPath !== 'none' && cs.clipPath.includes('100%'));
     }).length,

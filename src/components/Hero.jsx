@@ -1,21 +1,19 @@
 import portrait from '../assets/images/tejas-portrait.jpg?w=320;480;634&format=avif;webp;jpg&as=picture';
 import { profile } from '../data/profile.js';
-import { useTypewriter } from '../hooks/useTypewriter.js';
 import { numberWord, yearsSince } from '../lib/dates.js';
 import Picture from './Picture.jsx';
 import s from './Hero.module.css';
 
-/* Each phrase is an array of lines. Line breaks are enforced on wide screens
-   and wrap naturally below 900px. */
-const PHRASES = [
-  [`${profile.name}.`],
-  ['I build web products', 'that work in', 'production.'],
+/* Line breaks are only enforced on wide screens; below 900px the words wrap naturally. */
+const HEADLINE = [
+  ['I', 'build', 'web', 'products'],
+  ['that', 'work', 'in'],
+  ['production.'],
 ];
-const HEADLINE_TEXT = PHRASES.map((lines) => lines.join(' ')).join(' ');
 
 export default function Hero() {
   const years = yearsSince(profile.careerStart.year, profile.careerStart.month);
-  const { lines, resting, animated } = useTypewriter(PHRASES, { staticIndex: 1 });
+  let wordIndex = 0;
 
   return (
     <section id="top" className={s.hero} aria-labelledby="hero-title">
@@ -26,19 +24,24 @@ export default function Hero() {
           <span>{profile.location}</span>
         </p>
 
-        <h1 id="hero-title" className={`display ${s.title}`} aria-label={HEADLINE_TEXT}>
-          <span aria-hidden="true">
-            {lines.map((line, index) => (
-              <span key={index}>
-                <span className={s.line}>
-                  {line}
-                  {animated && index === lines.length - 1 ? (
-                    <span className={`${s.cursor} ${resting ? s.cursorResting : ''}`} />
-                  ) : null}
-                </span>{' '}
-              </span>
-            ))}
-          </span>
+        <h1 id="hero-title" className={`display ${s.title}`}>
+          {HEADLINE.map((line, lineIndex) => (
+            <span key={lineIndex} className={s.line}>
+              {line.map((word) => {
+                const i = wordIndex;
+                wordIndex += 1;
+                return (
+                  <span key={`${lineIndex}-${word}`}>
+                    <span className={s.wordMask}>
+                      <span className={s.word} style={{ '--i': i }}>
+                        {word}
+                      </span>
+                    </span>{' '}
+                  </span>
+                );
+              })}
+            </span>
+          ))}
         </h1>
 
         <p className={`lead ${s.lead}`}>
