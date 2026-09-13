@@ -1,4 +1,4 @@
-import portrait from '../assets/images/tejas-portrait.jpg?w=480;720;960;1280;1600&aspect=4:5&fit=cover&position=attention&format=avif;webp;jpg&as=picture';
+import portrait from '../assets/images/tejas-portrait.jpg?w=320;480;634&format=avif;webp;jpg&as=picture';
 import { profile } from '../data/profile.js';
 import { numberWord, yearsSince } from '../lib/dates.js';
 import Picture from './Picture.jsx';
@@ -79,7 +79,7 @@ export default function Hero() {
           <div className={s.frame}>
             <Picture
               picture={portrait}
-              alt="Portrait of Tejas HR, smiling, wearing glasses"
+              alt="Portrait of Tejas HR, smiling, in a dark shirt"
               sizes="(min-width: 900px) 40vw, 78vw"
               priority
               className={s.picture}

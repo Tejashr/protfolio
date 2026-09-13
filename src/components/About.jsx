@@ -1,4 +1,4 @@
-import portrait from '../assets/images/tejas-portrait-2.jpg?w=320;480;640&format=avif;webp;jpg&as=picture';
+import portrait from '../assets/images/tejas-portrait-detail.jpg?w=240;320;420&format=avif;webp;jpg&as=picture';
 import { achievement, certifications, education } from '../data/background.js';
 import { philosophy } from '../data/philosophy.js';
 import { profile } from '../data/profile.js';
@@ -81,7 +81,7 @@ export default function About() {
             <figure className={s.figure} data-reveal="clip">
               <Picture
                 picture={portrait}
-                alt="Tejas HR in a dark shirt, photographed at night"
+                alt="Tejas HR, close portrait"
                 sizes="(min-width: 900px) 24vw, 62vw"
                 imgClassName={s.img}
               />

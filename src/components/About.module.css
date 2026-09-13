@@ -19,7 +19,7 @@
 
 .img {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   filter: grayscale(1) contrast(1.04);
   transition: filter var(--dur-slow) var(--ease-std);

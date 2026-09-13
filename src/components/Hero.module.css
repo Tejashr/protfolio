@@ -93,7 +93,7 @@
 
 .frame {
   position: relative;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1;
   overflow: hidden;
   border-radius: var(--radius-sm);
   background: var(--color-surface-2);
