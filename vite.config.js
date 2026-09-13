@@ -1,15 +1,23 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import { imagetools } from 'vite-imagetools';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { imagetools } from "vite-imagetools";
 
-// The site is served from https://tejashr.github.io/protfolio/ (GitHub Pages),
-// so every asset URL must be prefixed with the repository name.
+// Use a relative base so the app works both from the project root during local
+// development and from /protfolio/ when deployed on GitHub Pages.
 export default defineConfig({
-  base: '/protfolio/',
+  base: "./",
   plugins: [react(), imagetools()],
   build: {
-    target: 'es2020',
+    target: "es2020",
     sourcemap: false,
     assetsInlineLimit: 2048,
+  },
+  server: {
+    host: "0.0.0.0",
+    port: 5173,
+  },
+  preview: {
+    host: "0.0.0.0",
+    port: 4173,
   },
 });
