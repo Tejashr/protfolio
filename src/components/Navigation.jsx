@@ -5,6 +5,7 @@ import { useActiveSection } from '../hooks/useActiveSection.js';
 import { useFocusTrap } from '../hooks/useFocusTrap.js';
 import { useLockBody } from '../hooks/useLockBody.js';
 import { useScrolled } from '../hooks/useScrolled.js';
+import { CloseIcon, MenuIcon } from './Icons.jsx';
 import { ThemeOptions, ThemeToggle } from './ThemeToggle.jsx';
 import s from './Navigation.module.css';
 
@@ -78,9 +79,10 @@ export default function Navigation({ theme, onToggleTheme, preference, onSetPref
               className={s.menuButton}
               aria-expanded={open}
               aria-controls="mobile-menu"
+              aria-label="Open menu"
               onClick={() => setOpen(true)}
             >
-              Menu
+              <MenuIcon />
             </button>
           </div>
         </div>
@@ -100,8 +102,8 @@ export default function Navigation({ theme, onToggleTheme, preference, onSetPref
           <Brand />
           <div className={s.actions}>
             <ThemeToggle theme={theme} onToggle={onToggleTheme} />
-            <button type="button" className={s.menuButton} onClick={close}>
-              Close
+            <button type="button" className={s.menuButton} aria-label="Close menu" onClick={close}>
+              <CloseIcon />
             </button>
           </div>
         </div>

@@ -34,9 +34,6 @@ function Background() {
           {achievement.detail}
         </p>
         <p className={s.blockBody}>{achievement.body}</p>
-        <figure className={s.certImage}>
-          <Picture picture={achievement.image} alt={achievement.imageAlt} sizes="(min-width: 640px) 30vw, 90vw" imgClassName="mono" />
-        </figure>
       </div>
 
       <div className={s.block} data-reveal style={{ '--reveal-delay': '80ms' }}>

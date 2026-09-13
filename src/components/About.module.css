@@ -120,14 +120,6 @@
   text-wrap: pretty;
 }
 
-.certImage {
-  max-width: 340px;
-  margin-top: var(--space-3);
-  overflow: hidden;
-  border: var(--border-w) solid var(--color-border-strong);
-  border-radius: var(--radius-sm);
-}
-
 .credList {
   display: grid;
   gap: var(--space-5);

@@ -20,6 +20,22 @@ export function SunIcon(props) {
   );
 }
 
+export function MenuIcon(props) {
+  return (
+    <svg {...base} width={22} height={22} {...props}>
+      <path d="M3 8h18M3 16h18" />
+    </svg>
+  );
+}
+
+export function CloseIcon(props) {
+  return (
+    <svg {...base} width={22} height={22} {...props}>
+      <path d="M6 6l12 12M18 6 6 18" />
+    </svg>
+  );
+}
+
 export function MoonIcon(props) {
   return (
     <svg {...base} {...props}>

@@ -41,7 +41,7 @@ src/
   components/               One folder-free component per section, each with a CSS module
   hooks/                    Theme, scroll state, active section, reveal, focus trap, body lock
   lib/                      Theme storage helpers, date helpers
-  assets/images/            Source images (portrait, portrait detail crop, certificate)
+  assets/images/            Source images (portrait and its detail crop)
 scripts/
   make-icons.mjs            Regenerates the PNG icons from public/favicon.svg
   make-og.mjs               Renders public/og-image.png from scripts/og-template.html

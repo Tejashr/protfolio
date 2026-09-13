@@ -118,11 +118,18 @@
 }
 
 .menuButton {
-  padding: 0.5em 0;
-  font-size: var(--text-xs);
-  letter-spacing: var(--tracking-caps);
-  text-transform: uppercase;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: inline-grid;
+  place-items: center;
+  margin-right: -0.4rem;
+  border-radius: var(--radius-pill);
   color: var(--color-text);
+  transition: background-color var(--dur-fast) var(--ease-std);
+}
+
+.menuButton:hover {
+  background: var(--color-surface-2);
 }
 
 /* Mobile menu ---------------------------------------------------------------- */

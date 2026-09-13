@@ -135,7 +135,7 @@ for (const width of WIDTHS) {
   await page.goto(baseUrl);
   await settle(page);
 
-  await page.getByRole('button', { name: 'Menu' }).click();
+  await page.getByRole('button', { name: 'Open menu' }).click();
   await page.waitForTimeout(700);
   const dialog = page.getByRole('dialog', { name: 'Site menu' });
   if (!(await dialog.isVisible())) problems.push('mobile menu did not open');
@@ -155,11 +155,11 @@ for (const width of WIDTHS) {
   await page.keyboard.press('Escape');
   await page.waitForTimeout(500);
   if (await dialog.isVisible()) problems.push('Escape did not close the mobile menu');
-  const backOnButton = await page.evaluate(() => document.activeElement?.textContent?.trim());
-  if (backOnButton !== 'Menu') problems.push(`focus not returned to Menu button (on "${backOnButton}")`);
+  const backOnButton = await page.evaluate(() => document.activeElement?.getAttribute('aria-label'));
+  if (backOnButton !== 'Open menu') problems.push(`focus not returned to the menu button (on "${backOnButton}")`);
 
   // Navigate via a menu link.
-  await page.getByRole('button', { name: 'Menu' }).click();
+  await page.getByRole('button', { name: 'Open menu' }).click();
   await page.waitForTimeout(500);
   await page.getByRole('link', { name: /02\s*Experience/i }).click();
   await page.waitForTimeout(900);
@@ -171,7 +171,7 @@ for (const width of WIDTHS) {
   await page.emulateMedia({ colorScheme: 'dark' });
   await page.getByRole('radio', { name: 'Dark' }).first().click({ force: true }).catch(() => {});
   await page.evaluate(() => window.scrollTo(0, 0));
-  await page.getByRole('button', { name: 'Menu' }).click();
+  await page.getByRole('button', { name: 'Open menu' }).click();
   await page.waitForTimeout(700);
   await page.screenshot({ path: path.join(outDir, '390-menu-open-dark.png') });
   if (page.consoleErrors.length) problems.push(`[menu] console: ${page.consoleErrors.join(' || ')}`);

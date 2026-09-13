@@ -1,5 +1,3 @@
-import sihImage from '../assets/images/smart-india-hackathon-2018.jpg?w=480;800;1280&format=avif;webp;jpg&as=picture';
-
 export const achievement = {
   label: 'Recognition',
   title: 'Smart India Hackathon 2018',
@@ -7,8 +5,6 @@ export const achievement = {
   detail: 'Team ATME Lipans · 30–31 March 2018',
   body:
     'Selected for the Grand Finale of the Smart India Hackathon, the national-level software build-off organised by the Ministry of Human Resource Development and AICTE.',
-  image: sihImage,
-  imageAlt: 'Smart India Hackathon 2018 certificate of participation awarded to Tejas HR of team ATME Lipans',
 };
 
 export const education = [
