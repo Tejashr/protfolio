@@ -10,8 +10,9 @@
 }
 
 .figure {
-  width: 62%;
+  width: 68%;
   max-width: 360px;
+  margin-inline: auto;
   overflow: hidden;
   border-radius: var(--radius-sm);
   background: var(--color-surface-2);
@@ -168,6 +169,7 @@
 
   .figure {
     width: 78%;
+    margin-inline: 0;
   }
 
   .main {
